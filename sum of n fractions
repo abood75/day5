@@ -1,0 +1,19 @@
+# day5
+#include <stdio.h>
+
+int main()
+{
+    float n,i,value,sum=0;
+
+    printf("enter the number of fractions has to be added");
+scanf("%f",&n);
+printf("enter the %f fractions",n);
+
+for(i=0;i<n;i++)
+{
+    scanf("%f",&value);
+    sum=sum+value;
+}
+printf("the sum of the fractions is %f",sum);
+    return 0;
+}
