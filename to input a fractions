@@ -1,0 +1,15 @@
+# day5
+#include <stdio.h>
+
+int main()
+{
+    float n,m,sum=0;
+
+    printf("enter the two fractions ");
+scanf("%f%f",&n,&m);
+
+
+
+printf("the  the two fractions is %f and %f",n,m);
+    return 0;
+}
